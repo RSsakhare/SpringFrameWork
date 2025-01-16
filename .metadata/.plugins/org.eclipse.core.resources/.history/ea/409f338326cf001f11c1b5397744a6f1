@@ -1,0 +1,16 @@
+
+public class Student {
+	
+	int sid;
+	String sname;
+	static int cnt;
+	public Student() {
+		sid=++cnt;
+	}
+	public Student( String sname) {
+		super();
+		this.sid = ++cnt;
+		this.sname = sname;
+	}
+	
+}

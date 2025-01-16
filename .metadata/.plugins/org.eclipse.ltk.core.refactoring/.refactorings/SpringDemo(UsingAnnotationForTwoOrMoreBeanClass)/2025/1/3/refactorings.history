@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy 3 elements to &apos;SpringDemo15(DI_UsingAnnotation)/src&apos;&#x0D;&#x0A;- Original project: &apos;SpringDemo(UsingAnnotationForTwoOrMoreBeanClass)&apos;&#x0D;&#x0A;- Destination element: &apos;SpringDemo15(DI_UsingAnnotation)/src&apos;&#x0D;&#x0A;- Original elements:&#x0D;&#x0A;     AppConfig.java&#x0D;&#x0A;     Employee.java&#x0D;&#x0A;     MainApp.java" description="Copy compilation units" destination="=SpringDemo15\(DI_UsingAnnotation)/src" element1="/src&lt;{AppConfig.java" element2="/src&lt;{Employee.java" element3="/src&lt;{MainApp.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1736842036619" units="3" version="1.0"/>
+</session>

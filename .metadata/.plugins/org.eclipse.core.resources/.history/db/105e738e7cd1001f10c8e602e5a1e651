@@ -1,0 +1,61 @@
+
+public class Employee {
+
+	int eid;
+	String ename;
+	int esal;
+	PermaAddress paddr;
+	PermaAddress taddr;
+	PermaAddress oaddr;
+	public Employee() {}
+	public Employee(int eid, String ename, int esal, PermaAddress paddr, PermaAddress taddr, PermaAddress oaddr) {
+		super();
+		this.eid = eid;
+		this.ename = ename;
+		this.esal = esal;
+		this.paddr = paddr;
+		this.taddr = taddr;
+		this.oaddr = oaddr;
+	}
+	public int getEid() {
+		return eid;
+	}
+	public void setEid(int eid) {
+		this.eid = eid;
+	}
+	public String getEname() {
+		return ename;
+	}
+	public void setEname(String ename) {
+		this.ename = ename;
+	}
+	public int getEsal() {
+		return esal;
+	}
+	public void setEsal(int esal) {
+		this.esal = esal;
+	}
+	public PermaAddress getPaddr() {
+		return paddr;
+	}
+	public void setPaddr(PermaAddress paddr) {
+		this.paddr = paddr;
+	}
+	public PermaAddress getTaddr() {
+		return taddr;
+	}
+	public void setTaddr(PermaAddress taddr) {
+		this.taddr = taddr;
+	}
+	public PermaAddress getOaddr() {
+		return oaddr;
+	}
+	public void setOaddr(PermaAddress oaddr) {
+		this.oaddr = oaddr;
+	}
+	@Override
+	public String toString() {
+		return "Employee [eid=" + eid + ", ename=" + ename + ", esal=" + esal + ", paddr=" + paddr + ", taddr=" + taddr
+				+ ", oaddr=" + oaddr + "]";
+	}
+}

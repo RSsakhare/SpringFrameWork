@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:p="http://www.springframework.org/schema/p"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-3.0.xsd">
+    
+	<bean id="addr" class="Address" scope="singleton">
+		<constructor-arg name="city" value="pune"></constructor-arg>
+		<constructor-arg name="state" value="Maharashtra"></constructor-arg>
+	</bean>
+	<bean id="emp" class="Employee" scope="singleton">
+		<constructor-arg name="eid" value="101"></constructor-arg>
+		<constructor-arg name="ename" value="Amit"></constructor-arg>
+		<constructor-arg name="esal" value="10000"></constructor-arg>
+		<constructor-arg name="addr" value="addr"></constructor-arg>
+	</bean>
+</beans>

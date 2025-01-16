@@ -1,0 +1,54 @@
+package com.Dao;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.jdbc.core.JdbcTemplate;
+
+import com.Model.Product;
+
+public class ProductDaoIMPL implements ProductDaoInterface
+{
+
+	@Autowired
+	JdbcTemplate jt;
+	
+	public JdbcTemplate getJt() {
+		return jt;
+	}
+
+	public void setJt(JdbcTemplate jt) {
+		this.jt = jt;
+	}
+
+	
+	@Override
+	public int saveProduct(Product p) {
+		String query="insert into Product1 values('"+p.getPid()+"','"+p.getPname()+"','"+p.getPqnty()+"','"+p.getPrice()+"')";
+		
+		return jt.update(query);
+	}
+
+	@Override
+	public int updateProduct(Product p) {
+		
+		return 0;
+	}
+
+	@Override
+	public int deleteProduct(Product p) {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+	@Override
+	public void showProductById(int pid) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public int showProduct() {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+	
+}
