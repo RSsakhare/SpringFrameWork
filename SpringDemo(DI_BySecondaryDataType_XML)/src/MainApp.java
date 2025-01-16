@@ -1,0 +1,17 @@
+import org.springframework.context.ApplicationContext;
+import org.springframework.context.support.ClassPathXmlApplicationContext;
+
+public class MainApp {
+
+	public static void main(String[] args)
+	{	
+		/* String files[] = new String[]{"computer.xml","hardDisk.xml"};     //first method SecondaryDta Type
+		  ApplicationContext ac = new ClassPathXmlApplicationContext(files);
+		*/
+		
+		ApplicationContext ac = new ClassPathXmlApplicationContext("applicationContextInnerBeanApproch.xml");   //second Method InnerBean Method
+		
+		Computer cmp = (Computer) ac.getBean("ctp");
+		cmp.printData();
+	}
+}
