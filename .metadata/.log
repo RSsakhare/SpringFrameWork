@@ -3158,3 +3158,6 @@ END
 
 !ENTRY org.springframework.tooling.boot.ls 1 0 2025-01-16 14:56:46.354
 !MESSAGE Boot project ADDED: SpringDaoDemo(UsingJDBCTemplateXML)
+
+!ENTRY org.eclipse.core.resources 2 10035 2025-01-16 15:31:05.200
+!MESSAGE The workspace will exit with unsaved changes in this session.
