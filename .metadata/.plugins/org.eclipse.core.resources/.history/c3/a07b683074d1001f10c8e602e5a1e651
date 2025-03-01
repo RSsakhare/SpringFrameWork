@@ -1,9 +1,0 @@
-
-public class Employee {
-
-	int eid;
-	String ename;
-	int esal;
-	Address addr;
-	
-}
